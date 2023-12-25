@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            place-items: center;
+        }
+        .container {
+            border:5px solid black;
+            padding:100px;
+        }
+        .box:nth-of-type(odd){
+            background-color: teal;
+            color:white
+        }
+
+        .box {
+            padding:30px;
+            border:5px solid red;
+            margin:10px;
+            font-size: 25px;
+            font-weight: bold;
+            place-items: center;
+        }
+        /* Flex Box */
+        .container{
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex Box</h2>
+
+    <div class="container">
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+<div class="box">4</div>
+<div class="box">5</div>
+<div class="box">6</div>
+<div class="box">7</div>
+<div class="box">8</div>
+<div class="box">9</div>
+<div class="box">10</div>
+
+
+
+</body>
+</html>
